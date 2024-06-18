@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    /* overflow-x: scroll; */
+}
+
+#top-nav{
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(70, 11, 11);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 8pt;
+    /* padding: 0 10px; */
+}
+
+.line{
+    border-left: 2px solid grey;
+    height: 20px;
+}
+
+#nav{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(252, 249, 249);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+    
+    
+    
+
+}
+
+.logo-nav{
+    /* width: 100px; */
+    gap: 30px;
+}
+
+.logo-nav nav a{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+#nav .logo-nav{
+   display: inline-block;
+ 
+  
+
+   /* flex-direction: row; */
+   /* flex-wrap: wrap; */
+    
+    list-style: none;
+    
+
+}
+
+.appointment button{
+    padding: 12px 20px;
+    color: rgb(100, 25, 25);
+    border: 0.8px ridge rgb(100, 25, 25) ;
+    background-color: white;
+    font-weight: 400;
+
+
+}
+
+.appointment button:hover{
+    color: white;
+    border: none ;
+    background-color: rgb(100, 25, 25);
+
+}
+
+.appointment a{
+    text-decoration: none;
+
+}
+
+.call-us a{
+    color: black;
+
+}
+
+.number a{
+    color: rgb(100, 25, 25);
+    border-bottom: 0.5px dotted rgb(100, 25, 25);
+}
+
+#hero{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./image/her02.jpg);
+    /* to flip image */
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.trans-overlay{
+    width: 100vw;  
+    height: 80vh;  
+    background-image: linear-gradient( to left, rgba(0, 0, 0, 0.1),  rgba(0, 0, 0, 0.918) );
+}
+
+.content{
+    width: 500px;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center ;
+    align-self: inherit;
+    color: white;
+    padding: 100px;
+
+}
+
+.content h1{
+    font-size: 40pt;
+
+}
+
+.content p{
+    font-size: 12pt;
+
+}
+
+.pract-btn{
+    padding: 20px 30px;
+    background-color: #B40000;
+    color: white ;
+    border-style: none;
+}

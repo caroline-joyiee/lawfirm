@@ -146,7 +146,7 @@ body{
     border-style: none;
     background-size: 200%;
     transition: .3s ease-out;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.356), rgb(255, 174, 0));
+    /* background-image: linear-gradient(to left, rgba(255, 255, 255, 0.356), rgb(255, 174, 0)); */
 
     
 
@@ -221,7 +221,7 @@ body{
 
 .long-box{
     width: 320px;
-    height: 495px;
+    height: 470px;
     background-color: #B40000;
     border-radius: 0 100px 0 0;
     padding: 20px 10px;

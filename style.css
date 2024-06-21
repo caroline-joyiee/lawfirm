@@ -1,29 +1,32 @@
-body{
+body {
     margin: 0;
     padding: 0;
     overflow: scroll;
     /* overflow-x: scroll; */
 }
 
-#top-nav{
+#top-nav {
     width: 100vw;
     height: 30px;
     background-color: rgb(70, 11, 11);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    font-size: 8pt;
+a    font-size: 8pt;
     /* position: fixed; */
     /* padding: 0 10px; */
 }
 
-.line{
+#left-side-items {
+    padding: 20px;
+}
+
+.line {
     border-left: 2px solid grey;
     height: 20px;
 }
 
-#nav{
+#nav {
     width: 97vw;
     height: 80px;
     background-color: rgb(252, 249, 249);
@@ -33,132 +36,132 @@ body{
     padding: 20px;
     /* position: fixed; */
     box-shadow: 2px 5px 8px #00000086;
-    
-    
-    
-    
+
+
+
+
 
 }
 
-.logo-nav{
+.logo-nav {
     /* width: 100px; */
     gap: 30px;
 }
 
-.logo-nav nav a{
-    
+.logo-nav nav a {
+
     text-decoration: none;
     color: black;
-    
+
 }
 
-#nav .logo-nav{
-   display: inline-block;
- 
-  
+#nav .logo-nav {
+    display: inline-block;
 
-   /* flex-direction: row; */
-   /* flex-wrap: wrap; */
-    
+
+
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+
     list-style: none;
-    
+
 
 }
 
-.appointment button{
+.appointment button {
     padding: 12px 20px;
     color: rgb(100, 25, 25);
-    border: 0.8px ridge rgb(100, 25, 25) ;
+    border: 0.8px ridge rgb(100, 25, 25);
     background-color: white;
     font-weight: 400;
 
 
 }
 
-.appointment button:hover{
+.appointment button:hover {
     color: white;
-    border: none ;
+    border: none;
     background-color: rgb(100, 25, 25);
 
 }
 
-.appointment a{
+.appointment a {
     text-decoration: none;
 
 }
 
-.call-us a{
+.call-us a {
     color: black;
 
 }
 
-.number a{
+.number a {
     color: rgb(100, 25, 25);
     border-bottom: 0.5px dotted rgb(100, 25, 25);
 }
 
-#hero{
+#hero {
     width: 100vw;
     height: 80vh;
     background-image: url(./image/her02.jpg);
     /* to flip image */
     /* -webkit-transform: scaleX(-1);
     transform: scaleX(-1); */
-    background-size:cover ;
+    background-size: cover;
     background-repeat: no-repeat;
-    
+
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-.trans-overlay{
-    width: 100vw;  
-    height: 80vh;  
-    background-image: linear-gradient( to left, rgba(0, 0, 0, 0.1),  rgba(0, 0, 0, 0.918) );
+.trans-overlay {
+    width: 100vw;
+    height: 80vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.918));
 }
 
-.content{
+.content {
     width: 500px;
     height: 600px;
     justify-content: space-around;
-    align-items: center ;
+    align-items: center;
     align-self: inherit;
     color: white;
     padding: 100px;
 
 }
 
-.content h1{
+.content h1 {
     font-size: 40pt;
 
 }
 
-.content p{
+.content p {
     font-size: 12pt;
 
 }
 
-.pract-btn{
+.pract-btn {
     padding: 20px 30px;
     background-color: #B40000;
-    color: white ;
+    color: white;
     border-style: none;
     background-size: 200%;
     transition: .3s ease-out;
     /* background-image: linear-gradient(to left, rgba(255, 255, 255, 0.356), rgb(255, 174, 0)); */
 
-    
 
-    
+
+
 }
 
-.pract-btn:hover .pract-btn-overlay{
-    
+.pract-btn:hover .pract-btn-overlay {
+
     background-position: left;
 }
 
-#owner{
+#owner {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -166,36 +169,36 @@ body{
     align-items: center;
 }
 
-.about-text{
+.about-text {
     width: 350px;
     height: 580px;
 }
 
-.about-text h1{
+.about-text h1 {
     font-size: 30pt;
 }
 
-.about-text .prof{
+.about-text .prof {
     font-size: 14pt;
     font-weight: 700;
 }
 
-.about-text h6{
+.about-text h6 {
     font-size: 12pt;
     font-weight: 500;
 }
 
-#main-content{
+#main-content {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     column-gap: 10px;
     row-gap: -100px;
 
 }
 
-#grid-side{
+#grid-side {
     width: 610px;
     height: 100px;
 
@@ -204,26 +207,136 @@ body{
     grid-template-columns: auto auto;
     gap: 10px;
     margin: 0;
-    
-    
+
+
 
 }
 
-.small-box{
+.small-box {
     width: 300px;
     height: 240px;
     border: 1px solid #ddd;
     text-align: center;
     border-radius: 8px;
     /* padding: 20px; */
+
+}
+
+.long-box {
+    width: 250px;
+    height: 450px;
+    background-color: #B40000;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 0 100px 0 0;
+    padding: 20px 10px;
+    color: white;
+}
+
+.edit-box {
+    width: 160px;
+    height: 20px;
+    background-color: #B40000;
+    color: white;
+    border: 0.5px solid white;
+    margin: 5px;
+
+    padding:  10px;
+
+
+}
+
+#submit{
+padding: 10px 80px;
+border-style: none;
+background-color: #B40000;
+}
+#choose{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-more{
+    padding: 20px;
+    background-color: #B40000;
+    color: white;
+    border-style: none;
+
+}
+
+.logo-swipe{
+    width: 100vw;
+    height: 150px;
+    /* background-color: #
+    B40000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.8px solid grey;
+}
+
+#clients-says{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(./image/hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.news{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    border-radius: 100px 0 0 0;
+    width: 400px;
+    height: 250px;
+}
+
+.top-news{
+   
+    width: 300px;
+    height: 200px;
+    background-color: #fdfcfc;
+    margin-top: 180px;
+    margin-left: -250px;
+    z-index: 500;
+    padding: 20px;
+
+}
+
+.btn-read{
+    padding: 20px;
+    border-style: none;
+    background-color: white;
+    border-bottom: 2px solid #B40000;
+}
+.small-footer{
+    width: 50vw;
+    height: 90px;
+    background-color: #ecabab;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
     
 }
 
-.long-box{
-    width: 320px;
-    height: 470px;
-    background-color: #B40000;
-    border-radius: 0 100px 0 0;
-    padding: 20px 10px;
+#footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #3a0505;
+    display: flex;
+    justify-content: space-around;
 }
 
